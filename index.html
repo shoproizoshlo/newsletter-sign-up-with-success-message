@@ -15,6 +15,13 @@
     <title>
       Frontend Mentor | Newsletter sign-up form with success message
     </title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <!-- bootstrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
@@ -36,24 +43,32 @@
             Join 60,000+ product managers receiving monthly updates on:
           </p>
           <ul>
-            <li>
-              <img src="./assets/images/icon-list.svg" alt="icon list" />Product
-              discovery and building what matters
-            </li>
-            <li>
+            <li class="d-flex align-items-center">
               <img
                 src="./assets/images/icon-list.svg"
                 alt="icon list"
+                class="me-3"
+              />Product discovery and building what matters
+            </li>
+            <li class="d-flex align-items-center">
+              <img
+                src="./assets/images/icon-list.svg"
+                alt="icon list"
+                class="me-3"
+                3
               />Measuring to ensure updates are a success
             </li>
-            <li>
-              <img src="./assets/images/icon-list.svg" alt="icon list" />And
-              much more!
+            <li class="d-flex align-items-center">
+              <img
+                src="./assets/images/icon-list.svg"
+                alt="icon list"
+                class="me-3"
+              />And much more!
             </li>
           </ul>
           <form action="/" id="form">
             <div class="input-area">
-              <label for="email">Email address</label>
+              <label for="email">Email address</label><br />
               <input
                 required
                 type="email"
@@ -64,7 +79,7 @@
               />
             </div>
             <div class="error"></div>
-            <button>Subscribe to monthly newsletter</button>
+            <button class="submit">Subscribe to monthly newsletter</button>
           </form>
         </div>
         <div class="image-area">
