@@ -130,7 +130,7 @@ body {
   background-color: var(--neutral-charcoal-grey);
 }
 .container {
-  margin: 5% auto;
+  margin: 10% auto;
   background-color: var(--neutral-white);
   font-family: "Roboto", sans-serif;
   font-weight: 400;
