@@ -116,13 +116,13 @@ h6 {
 
 .input-control .error {
   display: block;
-  padding: 2px 45px;
-  margin: 5px 3px 10px 0;
-  text-align: start;
-  font-style: italic;
-  color: red;
+  margin: 0;
+  text-align: end;
+  color: var(--primary-tomato);
   font-size: 10px;
-  height: 13px;
+  font-weight: 700;
+  position: relative;
+  top: -102px;
 }
 /*--------------------*/
 /* Sign-up form */
@@ -167,7 +167,7 @@ ul li {
 #form {
   margin: 32px 0;
 }
-.input-area label {
+.input-control label {
   font-size: 10px;
   font-weight: 700;
 }
