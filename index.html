@@ -68,15 +68,17 @@
           </ul>
           <form action="/" id="form">
             <div class="input-control">
-              <label for="email">Email address</label><br />
+              <div class="row">
+                <label class="col-6" for="email">Email address</label><br />
+                <div class="col-6 error" style="display: none"></div>
+              </div>
               <input
-                type="text"
+                required
                 id="email"
                 name="email"
                 class="email"
                 placeholder="email@company.com"
               />
-              <div class="error" style="display: none"></div>
             </div>
             <button type="submit" id="submit" class="submit">
               Subscribe to monthly newsletter

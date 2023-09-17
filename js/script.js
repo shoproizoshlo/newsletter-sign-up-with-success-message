@@ -4,8 +4,6 @@ const resultContainer = document.getElementById("success");
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
-  resultContainer.style.display = "block";
-  document.getElementById("signUp").style.display = "none";
   validateInputs();
 });
 
@@ -21,9 +19,12 @@ const setError = (element, message) => {
 const setSuccess = (element) => {
   const inputControl = element.parentElement;
   const errorDisplay = inputControl.querySelector(".error");
-
   errorDisplay.innerText = "";
   inputControl.classList.remove("error");
+  // show success message
+  resultContainer.style.display = "block";
+  // change signUp conteiner display to "none"
+  document.getElementById("signUp").style.display = "none";
 };
 
 const isValidEmail = (email) => {
