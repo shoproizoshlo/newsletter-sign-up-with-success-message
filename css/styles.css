@@ -107,6 +107,24 @@ h6 {
   font-weight: inherit;
 }
 /*--------------------*/
+/* error classes */
+.input-control.error input {
+  border-color: var(--primary-tomato);
+  background-color: hsl(4, 100%, 95%);
+  color: var(--primary-tomato);
+}
+
+.input-control .error {
+  display: block;
+  padding: 2px 45px;
+  margin: 5px 3px 10px 0;
+  text-align: start;
+  font-style: italic;
+  color: red;
+  font-size: 10px;
+  height: 13px;
+}
+/*--------------------*/
 /* Sign-up form */
 body {
   background-color: var(--neutral-charcoal-grey);
