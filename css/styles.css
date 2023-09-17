@@ -134,6 +134,7 @@ body {
 .heading {
   font-weight: 700;
   font-size: 48px;
+  line-height: 48px;
 }
 .cta {
   margin: 21px 0;
@@ -201,6 +202,9 @@ ul li {
   color: var(--neutral-dark-grey);
   font-size: 14px;
 }
+.success p {
+  margin: 20px 0;
+}
 .success strong {
   font-weight: 700;
 }
@@ -237,6 +241,9 @@ ul li {
     padding: 25px;
     order: 2;
   }
+  .heading {
+    font-size: 40px;
+  }
   .image-area {
     /* flex: 1; */
     min-height: 315px;
@@ -248,12 +255,18 @@ ul li {
   }
   .success {
     width: auto;
-    height: auto;
-    padding: 50px;
+    padding: 40px 25px;
     /* background-color: white; */
     /* border: 0 solid; */
     border-radius: 0;
     /* color: var(--neutral-dark-grey); */
-    /* font-size: 14px; */
+    font-size: 16px;
+  }
+  .success p {
+    margin: 20px 0 260px 0;
+  }
+  .success img {
+    width: 20%;
+    margin: 110px 0 35px 0;
   }
 }
