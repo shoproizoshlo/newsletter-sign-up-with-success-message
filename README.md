@@ -1,6 +1,6 @@
 # Frontend Mentor - Newsletter sign-up form with success message solution
 
-This is a solution to the [Newsletter sign-up form with success message challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/newsletter-signup-form-with-success-message-3FC1AZbNrv). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Newsletter sign-up form with success message challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/newsletter-signup-form-with-success-message-3FC1AZbNrv).
 
 ## Table of contents
 
@@ -37,7 +37,6 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://github.com/shoproizoshlo/newsletter-sign-up-with-success-message-main
 - Live Site URL: https://sue-newsletter-sign-up-with-success.netlify.app/
 
 ## My process
@@ -50,6 +49,4 @@ Users should be able to:
 
 ## Author
 
-- Website - [Sue Brechko](https://github.com/shoproizoshlo/)
 - Frontend Mentor - [@shoproizoshlo](https://www.frontendmentor.io/profile/shoproizoshlo)
-- Twitter - [@suereact](https://www.twitter.com/@suereact)
